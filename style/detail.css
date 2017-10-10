@@ -1,0 +1,378 @@
+/*商店头部*/
+.shopHeader {
+	margin-top: 32px;
+  height: 80px;
+  border-bottom: 1px solid #ddd;
+}
+.shopHeader .header {
+  width: 1200px;
+  margin: auto;
+}
+.user-info {
+  width: 507px;
+  height: 80px;
+  float: left;
+  z-index: 99;
+}
+.shopHeader .user-info .avatar {
+  float: left;
+  margin-left: 20px;
+}
+.shopHeader .user-info .face {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+.shopHeader .shop-name {
+  padding-left: 10px;
+  margin-top: 15px;
+  width: 200px;
+}
+.shopHeader .shop-name .name-wrap {
+  font-size: 14px;
+  overflow: hidden;
+  height: 20px;
+  line-height: 20px;
+  display: block;
+  font-weight: 400;
+}
+.name-wrap .mark {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.name-wrap {
+  font-size: 14px;
+  overflow: hidden;
+  height: 20px;
+  line-height: 20px;
+  display: block;
+  font-weight: 400;
+}
+.name-wrap .mark img {
+    height: 16px;
+}
+.score-wrap {
+  position: relative;
+  width: 240px;
+  z-index: 20;
+  padding-bottom: 30px;
+  clear: both;
+}
+.score-wrap .star {
+  width: 100px;
+  margin: 0;
+  padding: 0;
+}
+.score-wrap .star i {
+  width: 12px;
+  height: 15px;
+  background: url(https://s10.mogucdn.com/p1/160908/idid_ifrggnjwmi3gimdfmezdambqmeyde_18x38.png) 0 -12px no-repeat;
+  background-size: 13px 26px;
+  display: inline-block;
+}
+.descript .cat {
+  color: #666;
+  margin-right: 5px;
+  font-size: 12px;
+}
+.shop-header-action {
+  margin-top: 20px;
+  float: left;
+}
+.descript .cat b {
+    color: #ef2f23;
+    font-weight: 400;
+    padding-left: 2px;
+}
+.shop-header-action .shop-follow {
+  padding: 0 12px 0 22px!important;
+  background-position: 4px -48px;
+  font-size: 12px;
+  color: #666;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 10px;
+  background-color: #fff;
+  display: inline-block!important;
+  border: 1px solid #ddd;
+  background-image: url(https://s10.mogucdn.com/pic/140917/1agxjw_ieygizjshe4wcyjvmmytambqgiyde_270x400.png);
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+.shop-header-action .chart {
+  border: 1px solid #ddd;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 5px;
+  background-color: #fff;
+  cursor: pointer;
+  display: inline-block;
+}
+.mogutalk_widget4 {
+  width: 48px;
+  height: 20px;
+  background: url(https://s10.mogucdn.com/pic/150519/sp1ku_iezdizbwmi3temjugezdambqmmyde_1x1.gif) no-repeat 50%;
+  background-size: 42px;
+}
+.mogutalk_widget_btn {
+  cursor: pointer;
+  text-indent: -9999px;
+  display: inline-block;
+}
+.shop-search {
+  width: 595px;
+}
+.shop-search .searchInShop {
+  float: right;
+  height: 36px;
+  line-height: 36px;
+  overflow: hidden;
+  width: 100px;
+  background-color: #f07;
+  background-image: linear-gradient(to right,#f25,#ff1581);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.top_nav_search{
+    position: relative;
+    z-index: 50;
+    width: 592px;
+    margin-top: 30px;
+}
+/*店铺招牌图片*/
+.J-shop-top-banner {
+  width: 100%;
+  height: 150px;
+}
+.J-shop-top-banner .top-banner-img {
+  width: 100%;
+  height: 100%;
+}
+/*店铺导航*/
+.mod_topNav {
+	width: 100%;
+	height: 30px;
+  background: rgba(0,0,0,.75);	
+}
+.mod_count {
+	position: relative;
+  width: 1200px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;	
+}
+.mod_count ol {
+  height: 30px;
+}
+.mod_count ol li {
+  float: left;
+  position: relative;
+  font-size: 14px;
+  z-index: 2;
+  padding: 7px 0;
+}
+
+.mod_count ol li a {
+  display: block;
+  color: #fff;
+  padding: 0 20px;
+  line-height: 16px;
+  border-right: 1px solid #5c5c5c;
+}
+.all a {
+  padding: 0 38px 0 25px !important;
+  background: url(https://s10.mogucdn.com/pic/140415/16uz7_kqzfeqkbozbfqwkugfjeg5sckzsew_200x500.png) no-repeat 86px -191px;
+}
+.category_list {
+	display: none;
+  position: absolute;
+  top: 30px;
+  left: 68px;
+  width: 150px;
+  line-height: 32px;
+  background-color: rgba(0,0,0,.75);
+}
+.category_list dd {
+  height: 32px;
+  line-height: 32px;
+}
+.subMenu a {
+  color: #fff;
+  font-size: 12px;
+  background: url(https://s10.mogucdn.com/pic/130916/7ycvj_kqywuucwkfbfqqkugfjeg5sckzsew_4x7.png) no-repeat 10px 5px;
+  border: none;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 26px;
+}
+/*图片展示*/
+.shop-detail {
+	width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  overflow: hidden;
+  z-index: 1;
+}
+.primary-goods {
+  width: 1058px;
+  background-color:yellow; 
+}
+.primary-slide {
+	width: 142px;
+	background-color: red;
+}
+.imgBig {
+	width: 400px;
+	background-color: green;
+}
+.imgText {
+	width: 500px;
+	margin-left: 20px;
+}
+.goods-title {
+  width: 100%;
+  margin-bottom: 15px;
+  
+}
+.goods-title span {
+	font-family: Microsoft YaHei,arial;
+  color: #333;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+}
+.goods-prowarp {
+	width: 540px;
+	background-color: #f6f6f6;
+}
+.event-box {
+	height: 50px;
+	background-color: #ff3e59;
+}
+.event-tuan-info {
+	width: 200px;
+	height: 50px;
+  display: block;
+  line-height: 40px;
+}
+.event-tuan-info img {
+	float: left;
+	vertical-align: center;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.desc {
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	float: left;
+	margin-left: 10px;
+} 
+.event-time-left {
+	width: 280px;
+	margin-left: 50px;
+	height: 50px;
+	line-height: 50px;
+}
+.Count_down {
+	color: #ffd200;
+  font-size: 18px;
+}
+.t_d,.t_h,.t_m,.t_s {
+	font-size: 25px;
+	font-weight: bold;
+	margin-right: 3px;
+}
+.event-tuan-text {
+	font-size: 18px;
+	color: #fff;
+	margin-left: 5px;
+} 
+.property-type-origin,.tuanPrice {
+	display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  text-indent: 10px;
+  font-size: 14px;
+  color: #999;
+}
+.tuanPrice {
+	color: #ef2f23;
+}
+.price {
+	display: inline-block;
+  font-family: Microsoft YaHei,arial;
+  font-size: 14px;
+  color: #999;
+  padding-left: 10px;
+  text-decoration: line-through;
+}
+.nowPrice_wrap {
+	height: 32px;
+	line-height: 32px;
+}
+.price_t {
+  font-size: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #ff0000;
+  font-weight: 700;	
+}
+.mr10 {
+  margin-right: 10px!important;
+  color: #999;
+  font-size: 10px;
+}
+.num {
+	color: #000;
+}
+.Shop-youh-wraper {
+	height: 32px;
+	line-height: 32px;
+}
+.promotions-card {
+  display: inline-block;
+  margin-top: 5px;
+  line-height: 20px;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+.already-get {
+    border: 1px solid #999;
+}
+.promotions-card-text {
+  display: inline-block;
+  padding-left: 4px;
+  padding-right: 2px;
+  font-size: 12px;
+  color: #999;
+}
+.promotions-card-get {
+  color: #fff;
+  background: #999;
+  display: inline-block;
+  padding: 0 3px;
+  cursor: pointer;
+  width: 30px;
+  font-size: 10px;
+}
+.no-get {
+  border: 1px solid #f57;
+}
+.noget_red {
+  color: #f57;
+}
+.get_red {
+  color: #fff;
+  background: #f57;
+} 
+.m-icon {
+	font-size: 12px;
+}

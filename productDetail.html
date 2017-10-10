@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>detail</title>
+	<link rel="stylesheet" href="./style/reset.css" type="text/css">
+	<link rel="stylesheet" href="./style/main.css" type="text/css">
+	<link rel="stylesheet" href="./style/detail.css" type="text/css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/cloud-zoom.1.0.2.min.js"></script>
+    <style>
+      .zoom-tiny-image{border:1px solid #CCC;margin:0px;}
+      .zoom-tiny-image:hover{border:1px solid #C00;}
+      .zoom-desc {
+      	margin-top: 10px;
+      }
+      #wrap {
+      	z-index: 1 !important;
+      }
+    </style>	
+</head>
+<body>
+<!-- 顶部 注册登录 begain -->
+<div class="site-top-nav">
+  <div class="wrap">
+    <a href="#" class="home">伊人网首页</a>
+    <ul class="header_top">
+    	<li class="sl"><a href="#">登录</a></li>
+    	<li class="sl"><a href="#">注册</a></li>
+      <li class="sl myOrder"><a href="#">我的订单</a></li>
+      <li class="sl shopCar"><a href="#">购物车</a></li>
+    </ul>
+  </div>
+</div>
+<!-- 顶部 注册登录 end -->
+
+<!-- 店铺头部 begain	 -->
+<div class="shopHeader">
+ <div class="header">
+    <div class="user-info fl">
+     <a href="//shop.mogujie.com/1qlrjm" class="avatar" title="skgirl原创女装"><img class="face fl" src="http://s3.mogucdn.com/p1/160305/2bf8ff_ie4tcyjymfrgkyrrg4zdambqgqyde_200x200.jpg_100x100.jpg"></a>
+      <div class="shop-name fl">
+          <div class="name-wrap clearfix">
+             <a href="//shop.mogujie.com/1qlrjm" class="name fl" title="skgirl原创女装">skgirl原创女装</a>
+             <p class="mark">
+               <img src="http://s3.mogucdn.com/p1/161230/idid_ifqwgmrzgvqtenjsmqzdambqgyyde_60x36.png">
+             </p>
+          </div>
+         <!-- 评分信息 -->
+        <div class="score-wrap"> 
+           <p class="star">  
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+            </p>  
+            <p class="descript"> 
+               <span class="cat"> 描述<b class="">4.79</b> </span> 
+               <span class="cat"> 质量<b class="">4.79</b> </span> 
+               <span class="cat"> 服务<b class="">4.86</b> </span> 
+            </p>  
+        </div>
+           
+    </div>
+    <div class="shop-header-action">
+           <a class="J-shop-follow shop-follow fl" rel="nofollow" href="javascript:;">收藏店铺</a> 
+           <a href="javascript:;" class="chart fl" id="mogutalk_widget_box">
+              <div class="mogutalk_widget_btn kefu fl mogutalk_widget4" data-bid="1qlrjm#23" data-style="widget4" data-from="shop-header">
+              </div>
+            </a>
+   </div>  
+</div>
+ <div class="shop-search fr">
+     <div class="top_nav_search" id="nav_search_form">
+         
+            <form class="search_inner_box fl" action="http://list.mogujie.com/s" method="get" id="top_nav_form" target="_blank">
+               <input type="text" id="headerSeachValue" data-tel="search_book" name="q" class="ts_txt fl" data-def="内裤" value="" autocomplete="off" def-v="内裤" data-acm="3.mce.1_4_.39084.30655-30653.3cd6OqxxwIitg.p_12_hotSearchKeywordRec-mid_39084-lc_201">
+               <input type="submit" value="搜全站" class="ts_btn"> <input type="hidden" name="t" value="bao" id="select_type"> <input type="hidden" name="ptp" value="">
+            </form>
+            <input type="submit" class="searchInShop J-searchInShop fr" value="搜本店">
+      </div>
+ </div>
+ </div>
+ </div>
+<!-- 店铺头部 end	 -->
+<div class="J-shop-top-banner">
+    <div class="top-banner-img" style="background-image: url(http://s2.mogucdn.com/b7/pic/160812/2k03zh_ifrdanzqgqydanjvmezdambqmeyde_1920x150.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center">
+    </div>
+</div>
+
+<!-- 店铺导航 begain -->
+<div class="mod_topNav">
+  <div class="mod_count">
+    <ol>
+    	<li>
+    	  <a href="#">首页</a>
+    	</li>
+    	<li class="all" id="all">
+    	  <a href="#">全部商品</a>
+    	</li>
+    	<li class="z-nav-list">
+    	  <a href="#">T恤</a>
+    	</li>
+    	<li class="z-nav-list">
+    	  <a href="#">卫衣</a>
+    	</li>
+    	<li class="z-nav-list">
+    	  <a href="#">毛衣</a>
+    	</li>
+    	<li class="z-nav-list">
+    	  <a href="#">69元两件</a>
+    	</li>
+    	<li class="z-nav-list">
+    	  <a href="#">针织衫</a>
+    	</li>
+    </ol>
+    <div class="category_list">
+      <dl>
+      	<dd class="subMenu"><a href="#">毛衣</a></dd>
+      	<dd class="subMenu"><a href="#">卫衣</a></dd>
+      	<dd class="subMenu"><a href="#">T恤</a></dd>
+      	<dd class="subMenu"><a href="#">长袖T恤</a></dd>
+      	<dd class="subMenu"><a href="#">半身裙</a></dd>
+      	<dd class="subMenu"><a href="#">牛仔裤</a></dd>
+      	<dd class="subMenu"><a href="#">套装</a></dd>
+      	<dd class="subMenu"><a href="#">爆款专区</a></dd>
+      	<dd class="subMenu"><a href="#">秋季上新专区</a></dd>
+      	<dd class="subMenu"><a href="#">69元两件</a></dd>
+      </dl>
+    </div>
+  </div>
+</div>
+<!-- 店铺导航 end -->
+<!-- 图片展示 begain -->
+<div class="shop-detail">
+   <div class="primary-goods fl">
+      <div class="imgBig fl">
+
+		  <div class="image_bigdemo">
+		     <div class="zoom-small-image" style="z-index: 1;"> 
+		       <a href='images/bigTimg/bigimage00.jpg' class = 'cloud-zoom' id='zoom1' rel="adjustX:10, adjustY:-4">
+		         <img src="images/bigTimg/smallimage.jpg" alt=''/>
+		       </a>
+		    </div>
+		    <div class="zoom-desc">
+		      <p>
+		        <a href='images/bigTimg/bigimage00.jpg' class='cloud-zoom-gallery' title='Red' rel="useZoom: 'zoom1', smallImage: 'images/bigTimg/smallimage.jpg' "><img class="zoom-tiny-image" src="images/bigTimg/tinyimage.jpg" alt = "Thumbnail 1"/></a> 
+		        <a href='images/bigTimg/bigimage01.jpg' class='cloud-zoom-gallery' title='Blue' rel="useZoom: 'zoom1', smallImage: ' images/bigTimg/smallimage-1.jpg'"><img class="zoom-tiny-image" src="images/bigTimg/tinyimage-1.jpg" alt = "Thumbnail 2"/></a> 
+		        <a href='images/bigTimg/bigimage02.jpg' class='cloud-zoom-gallery' title='Blue' rel="useZoom: 'zoom1', smallImage: 'images/bigTimg/smallimage-2.jpg' "><img class="zoom-tiny-image" src="images/bigTimg/tinyimage-2.jpg" alt = "Thumbnail 3"/></a>
+		        </p>
+		    </div>
+		  </div>
+
+
+      </div>
+      <div class="imgText fl">
+        <h1 class="goods-title">
+           <span>秋季新款韩版宽松短款刺绣套头圆领拼接长袖黄色加绒卫衣女外套</span>
+        </h1>
+        <div class="goods-prowarp">
+          <div class="event-box">
+             <span class="event-tuan-info fl">
+                <img src="http://s3.mogucdn.com/p1/160727/upload_ifrteylbga3dqmjqmezdambqhayde_26x28.png" alt="">
+                <span class="desc">团购精选 百里挑一</span>
+             </span>
+             <div class="event-time-left fl">
+                <span class="Count_down">
+                   <span class="t_d" id="t_d">00</span>天
+                   <span class="t_h" id="t_h">00</span>时
+                   <span class="t_m" id="t_m">00</span>分
+                   <span class="t_s" id="t_s">00</span>秒
+                </span>
+                <span class="event-tuan-text">后结束</span>
+             </div>
+          </div>
+          <div class="main-box">
+				<div class="property-box">
+				    <span class="property-type-origin">价格：</span>
+				    <span class="property-cont-origin">
+				       <span id="J_OriginPrice" class="price">¥70.00</span>
+				    </span>
+				</div>
+				<div class="nowPrice_wrap">
+				   <span class="tuanPrice">团购价：</span>
+				   <span class="property-cont-tuan">
+				      <span class="price_t">¥45.50</span>
+				   </span>
+				   <span class="property-extra fr">
+				     <span class="mr10">评价：
+                       <span class="num">244</span>
+                     </span>
+                     <span class="mr10">累计销量：
+                         <span class="num">1316</span>
+                     </span>
+				   </span>
+				</div>
+				<div class="Shop-youh-wraper">
+				   <span class="property-type-origin fl">店铺优惠：</span>
+				   <div class="Coupon_wrap fl">
+				     <div class="promotions-card already-get fl">
+				        <span class="promotions-card-text">满79元立减5元</span>
+				        <span class="promotions-card-get" data-campid="1hv5njt64">已领</span>
+				     </div>
+                     <div class="promotions-card no-get fl"> 
+                        <span class="promotions-card-text noget_red">满158元立减10元</span> 
+                        <span class="promotions-card-get get_red" data-campid="1hv5njt7m">领取</span> 
+                     </div>
+                   
+				   </div>
+				     <div class="promotions-more fr">
+                        <span class="m-icon">更多优惠<i></i></span>
+                     </div>
+				</div>             
+          </div>
+        </div>
+      </div>
+   </div>
+   <div class="primary-slide fl">22</div>
+</div>
+<!-- 图片展示 end -->
+</body>
+<script>
+ $(document).ready(function(){
+        $("#all").mouseover(function() {
+        	$(".category_list").slideDown("slow");
+        });
+        $("#all").mouseleave(function() {
+        	$(".category_list").slideUp("slow");//慢慢收起 
+        });
+ }) 
+
+   function GetRTime(){
+       var EndTime= new Date('2017/010/14 00:00:00');
+       var NowTime = new Date();
+       var t =EndTime.getTime() - NowTime.getTime();
+       var d=Math.floor(t/1000/60/60/24);
+       var h=Math.floor(t/1000/60/60%24);
+       var m=Math.floor(t/1000/60%60);
+       var s=Math.floor(t/1000%60);
+
+       document.getElementById("t_d").innerHTML = d;
+       document.getElementById("t_h").innerHTML = h;
+       document.getElementById("t_m").innerHTML = m;
+       document.getElementById("t_s").innerHTML = s;
+   }
+   setInterval(GetRTime,0);
+
+
+</script>
+</html>
